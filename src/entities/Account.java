@@ -12,8 +12,13 @@ public class Account {
 		this.balance = balance;
 	}
 	
-	public String data () {
-		return "Account " + accountNumber + ", Holder " + accountHolder + ", Balance " + balance;
+	public String data() {
+		return "Account: " 
+				+ accountNumber 
+				+ ", Holder: " 
+				+ accountHolder 
+				+ ", Balance: $" 
+				+ String.format("%.2f%n", balance);
 	}
 
 	public int getAccountNumber() {

@@ -15,6 +15,7 @@ public class Program {
 		
 		System.out.print("Enter account number: ");
 		account.accountNumber = sc.nextInt();
+		sc.nextLine();
 		
 		System.out.print("Enter account holder: ");
 		account.accountHolder = sc.nextLine();
